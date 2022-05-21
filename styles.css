@@ -285,7 +285,7 @@ figcaption {
     border-color: #53e3fb;
 }
 
-#footnote-1:target, #footnote-2:target, #footnote-3:target, #footnote-4:target, #footnote-5:target {
+#footnote-1:target, #footnote-2:target, #footnote-3:target, #footnote-4:target, #footnote-5:target, #footnote-6:target {
     background-color: #3C405C;
     border: 1px dotted white;
 }

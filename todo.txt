@@ -1,5 +1,7 @@
+Make indices root-relative - seems to have worked, keep this in mind later
+
 Less encyclopaedic, make it more personally interesting/opinion-based
 Catalonia and Bukharin?
-Make indices root-relative
+Maybe add some maps or something to break up the text
 
 Responsive design is cringe...
