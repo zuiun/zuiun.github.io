@@ -1,4 +1,5 @@
 Less encyclopaedic, make it more personally interesting/opinion-based
 Catalonia and Bukharin?
+Make indices root-relative
 
 Responsive design is cringe...
