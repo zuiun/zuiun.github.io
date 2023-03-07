@@ -42,8 +42,6 @@
                     "<nav class = \"dropdown_content\">",
                         "<a href = \"/history/horthy.html\" class = \"dropdown_item menu_link\">Miklós Horthy</a>",
                         "<a href = \"/history/navy.html\" class = \"dropdown_item menu_link\">Naval Campaigns of the Second World War</a>",
-                        "<a href = \"/history/communism.html\" class = \"dropdown_item menu_link\">Communism</a>",
-                        "<a href = \"/history/thirty_years_war.html\" class = \"dropdown_item menu_link\">Thirty Years\" War</a>",
                     "</nav>",
                 "</div>",
                 "<a href = \"/about.html\" class = \"menu_item menu_link\">About</a>",
