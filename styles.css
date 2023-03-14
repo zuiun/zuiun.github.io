@@ -198,13 +198,6 @@ figcaption {
     font-size: 0.6em;
 }
 
-.articles {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 0.5em;
-}
-
 .articles_panel {
     width: 30%;
     max-height: 30vh;
@@ -283,6 +276,13 @@ figcaption {
 #scroll_button:active {
     color: #53e3fb;
     border-color: #53e3fb;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
 }
 
 #footnote-1:target, #footnote-2:target, #footnote-3:target, #footnote-4:target, #footnote-5:target, #footnote-6:target {

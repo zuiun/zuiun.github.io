@@ -1,10 +1,10 @@
 /*
  * Imports a file
  *
- * path: String = path to file
+ * path: string = path to file
  * 
- * Pre: none
- * Post: none
+ * Pre: None
+ * Post: None
  * Return: response = response of file
  */
 async function import_file (path) {
@@ -15,10 +15,10 @@ async function import_file (path) {
 /*
  * Imports a file as a JSON
  *
- * path: String = path to file
+ * path: string = path to file
  * 
- * Pre: none
- * Post: none
+ * Pre: None
+ * Post: None
  * Return: JSON = JSON of file
  */
 async function import_json (path) {
@@ -28,31 +28,45 @@ async function import_json (path) {
 }
 
 /*
+ * Builds header with dropdown links
+ *
+ * template: string = template for tab
+ *
+ * Pre: None
+ * Post: NOne
+ * Return: None
+ */
+async function build_header (template) {
+    let contents = [await import_json ("/history/index.json"), await import_json ("/projects/index.json")];
+    let dropdowns = document.getElementsByClassName ("dropdown_content");
+
+    // Populate dropdowns with appropriate tabs
+    for (let i = 0; i < dropdowns.length; i ++) {
+        Object.values (contents [i]).forEach (j => dropdowns [i].innerHTML += template.replace ("LINK", j [0]).replace ("TITLE", j [1]));
+    }
+}
+
+/*
  * Builds skeleton page (header and footer)
  *
- * Pre: none
- * Post: none
- * Return: none
+ * Pre: None
+ * Post: None
+ * Return: None
  */
 async function build_skeleton () {
-    let file = await import_file (window.location.pathname);
     let template = await import_json ("/template.json");
-    let head_element = document.getElementsByTagName ("head") [0];
-    let body_element = document.getElementsByTagName ("body") [0];
+    // let head = document.getElementsByTagName ("head") [0];
+    let body = document.getElementsByTagName ("body") [0];
 
-    body_element.innerHTML = template ["header"].join ("") + body_element.innerHTML + template ["footer"].join ("");
-    // TODO: Probably make some kind of automatic header dropdown creation
+    // head.innerHTML += template ["favicon"];
+    body.innerHTML = template ["header"].join ("") + body.innerHTML + template ["footer"].join ("");
+    build_header (template ["tab"]);
 
     // Add scroll button if necessary
-    if (document.body.clientWidth < window.innerWidth) { // There is a scroll bar
-        let aside_element = document.getElementsByTagName ("aside") [1];
+    if (window.innerWidth > document.documentElement.clientWidth || window.innerHeight < document.body.clientHeight) {
+        let aside = document.getElementsByTagName ("aside") [1];
 
-        aside_element.innerHTML = template ["scroll"].join ("");
-    }
-
-    // Use normal page
-    if (file.ok) {
-        head_element.innerHTML = head_element.innerHTML + template ["favicons"].join ("");
+        aside.innerHTML = template ["scroll"].join ("");
     }
 
     // Fade header as page is scrolled
@@ -65,39 +79,66 @@ async function build_skeleton () {
 }
 
 /*
- * Builds index page
+ * Builds article index page
  *
- * Pre: none
- * Post: none
- * Return: none
+ * json: JSON = JSON of index
+ *
+ * Pre: None
+ * Post: None
+ * Return: None
  */
-async function build_index () {
-    // TODO: Implement some sort of JSON storage or file search before implementing this
+async function build_index (json) {
+    let template = await import_json ("/template.json");
+    let container = document.getElementById ("articles");
+    let count = 0;
+
+    // Populate container with appropriate panels
+    Object.values (json).forEach (i => {
+        container.innerHTML += template ["articles_panel"].join ("").replace ("LINK", i [0]).replace ("TITLE", i [1]).replace ("IMAGE", i [2]).replaceAll ("CAPTION", i [3]);
+        count ++;
+    });
+
+    // Three-align container
+    if (count % 3 !== 0) {
+        for (let i = 0; i < 3 - (count % 3); i ++) {
+            let panel = document.createElement ("div");
+
+            panel.classList.add ("articles_panel");
+            container.appendChild (panel);
+        }
+    }
 }
 
 /*
  * Builds article page
  *
- * Pre: none
- * Post: none
- * Return: none
+ * json: JSON = JSON of article
+ *
+ * Pre: None
+ * Post: None
+ * Return: None
  */
-async function build_article () {
+async function build_article (json) {
     // TODO: Implement some sort of JSON storage before implementing this
 }
-
 
 /*
  * Builds page
  *
- * Pre: none
- * Post: none
- * Return: none
+ * Pre: None
+ * Post: None
+ * Return: None
  */
 async function build_page () {
-    let file = await import_file (window.location.pathname.replace ("html", "json"));
+    let file = await import_json (window.location.pathname.replace (".html", ".json"));
 
     build_skeleton ();
+
+    if (file !== undefined) {
+        if (window.location.pathname.includes ("index")) {
+            build_index (file);
+        }
+    }
 }
 
 build_page ();
