@@ -1,5 +1,4 @@
 {
-    "favicon": "<link rel=\"icon\" type = \"image/x-icon\" href=\"/favicon.ico\">",
     "header": [
         "<header>",
             "<div id = \"title\">",
@@ -11,11 +10,13 @@
                 "<div class = \"menu_item dropdown\">",
                     "<a href = \"/history/index.html\" class = \"menu_item menu_link\">History</a>",
                     "<nav class = \"dropdown_content\">",
+                    "history",
                     "</nav>",
                 "</div>",
                 "<div class = \"menu_item dropdown\">",
                     "<a href = \"/projects/index.html\" class = \"menu_item menu_link\">Projects</a>",
                     "<nav class = \"dropdown_content\">",
+                    "projects",
                     "</nav>",
                 "</div>",
                 "<a href = \"/about.html\" class = \"menu_item menu_link\">About</a>",
@@ -35,11 +36,11 @@
             "<a href = \"#\" id = \"scroll_button\" title = \"Back to top\">^</a>",
         "</div>"
     ],
-    "tab": "<a href = \"LINK\" class = \"dropdown_item menu_link\">TITLE</a>",
+    "dropdown_item": "<a href = \"LINK\" class = \"dropdown_item menu_link\">TITLE</a>",
     "articles_panel": [
         "<a href = \"LINK\" class = \"articles_panel\">",
             "<figure>",
-                "<img src = \"IMAGE\" alt = \"CAPTION\" title = \"CAPTION\">",
+                "<img src = \"COVER\" alt = \"CAPTION\" title = \"CAPTION\">",
                 "<figcaption>TITLE</figcaption>",
             "</figure>",
         "</a>"

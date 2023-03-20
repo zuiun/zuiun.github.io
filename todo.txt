@@ -1,3 +1,5 @@
+Add proper pre-conditions
+
 Less encyclopaedic, make it more personally interesting/opinion-based
 Maybe add some maps, timeline galleries, or something else to break up the text
 Remove some unnecessary pages, like Akebot
