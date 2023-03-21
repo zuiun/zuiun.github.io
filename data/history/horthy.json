@@ -1,6 +1,11 @@
 {
     "link": "/history/horthy.html",
     "title": "Miklós Horthy",
-    "cover": "/images/articles/horthy.jpg",
-    "caption": "Horthy entering Budapest"
+    "summary": "Currently being rewritten due to sourcing issues",
+    "cover": [
+        "/images/articles/horthy.jpg",
+        "Horthy entering Budapest",
+        "Horthy was extremely popular during his reign as Regent of Hungary, but is extremely controversial today.",
+        "https://momentmag.com/horthy-jews-budapest/"
+    ]
 }

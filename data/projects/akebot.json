@@ -1,6 +1,21 @@
 {
     "link": "/projects/akebot.html",
     "title": "Akebot",
-    "cover": "/images/articles/akebono.png",
-    "caption": "Akebono"
+    "summary": "Akebot is a Discord bot that can perform image and music searches.",
+    "cover": [
+        "/images/articles/akebono.png",
+        "Akebono",
+        "Japanese destroyer Akebono (and her depiction in Kantai Collection) was the design inspiration for Akebot.",
+        "https://twitter.com/Gale_kawaii/status/662905932989394945"
+    ],
+    "sections": [
+        [
+            ["about", "About"],
+            [
+                "ul",
+                "I will eventually write something more descriptive here.",
+                "<a href = \"https://github.com/zuiun/akebot\" target = \"_blank\">This is the link to Akebot's GitHub repository.</a>"
+            ]
+        ]
+    ]
 }

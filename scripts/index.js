@@ -1,4 +1,4 @@
-import {import_json} from "/modules/files.mjs"
+import {import_json} from "/modules/utilities.mjs"
 
 /*
  * Builds article panel
@@ -25,8 +25,8 @@ function build_articles_panel (article) {
      */
     articles_panel.classList.add ("articles_panel");
     articles_panel.href = article ["link"];
-    img.src = article ["cover"];
-    img.alt = img.title = article ["caption"];
+    img.src = article ["cover"] [0];
+    img.alt = img.title = article ["cover"] [1];
     figcaption.innerHTML = article ["title"];
     figure.appendChild (img);
     figure.appendChild (figcaption);
@@ -36,8 +36,6 @@ function build_articles_panel (article) {
 
 /*
  * Builds article index page
- *
- * json: JSON = JSON of index
  *
  * Pre: None
  * Post: None

@@ -1,0 +1,20 @@
+{
+    "link": "/about.html",
+    "title": "About",
+    "summary": "I am Ike Chen, an aspiring game developer who aims to combine history and games to create unique and powerful works of art that are interesting, educational, and enjoyable.<br>The Aichi E16A Zuiun is my favourite plane (a seaplane!), although I actually know very little about it. My miniscule online presence is almost entirely based on it.",
+    "sections": [
+        [
+            ["website", "Website"],
+            [
+                "p",
+                "This website is the result of hours of labour and confusion. It may not be the best website out there, but I built it almost entirely on my own (with help from MDN Web Docs and Stack Overflow)."
+            ],
+            [
+                "ul",
+                "This website's design was inspired by <a href = \"https://big-stupid-jellyfish.github.io/GFMath/index\" target = \"_blank\">GFMath</a>.",
+                "Almost everything on this website is dynamically populated using JavaScript. This makes it (arguably) more maintainable at a small cost to performance. I did this as a proof of concept.",
+                "All of the History articles are placeholders until I sort out sourcing issues. The unsourced versions can be accessed by adding <code>_old</code> to the file name."
+            ]
+        ]
+    ]
+}

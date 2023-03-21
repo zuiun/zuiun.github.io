@@ -1,6 +1,11 @@
 {
     "link": "/history/navy.html",
     "title": "Navies of the Second World War",
-    "cover": "/images/articles/enterprise.jpg",
-    "caption": "USS Enterprise at sea"
+    "summary": "Currently being rewritten due to sourcing issues",
+    "cover": [
+        "/images/articles/enterprise.jpg",
+        "USS Enterprise at sea",
+        "USS Enterprise was the most decorated American ship of the Second World War, but her name is rarely associated with wartime achievements nowadays.",
+        "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CV-6)_underway_c1939.jpg"
+    ]
 }

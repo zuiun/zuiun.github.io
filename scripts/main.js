@@ -1,4 +1,4 @@
-import {import_json} from "/modules/files.mjs"
+import {import_json} from "/modules/utilities.mjs"
 
 /*
  * Builds dropdown item
