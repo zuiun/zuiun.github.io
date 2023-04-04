@@ -44,13 +44,10 @@ function build_articles_panel (article) {
 async function build_index () {
     let articles = await import_json ("/data/articles.json");
     let container = document.getElementById ("articles");
-    let type = container.textContent;
     let count = 0;
 
-    container.innerHTML = "";
-
     // Populate container with appropriate panels
-    for (let i of Object.values (articles [type])) {
+    for (let i of Object.values (articles [ARTICLES_TYPE])) {
         container.appendChild (build_articles_panel (await import_json (i)));
         count ++;
     }
