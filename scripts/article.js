@@ -119,13 +119,30 @@ function build_section (contents) {
             case "embed":
                 element.src = contents [i] [1];
                 element.type = contents [i] [2];
-                // element.innerHTML = "<embed src = \"" + contents [i] [1] + "\" type = \"" + contents [i] [2] + "\">";
+                break;
+            case "audio":
+                element.controls = true;
+
+                for (let j = 1; j < contents [i].length; j ++) {
+                    let source = document.createElement ("source");
+
+                    source.src = contents [i] [j];
+                    element.appendChild (source);
+                }
+
+                element.innerHTML += "Your browser does not support the audio tag.";
                 break;
             case "video":
                 element.controls = true;
-                // element.src = contents [i] [1];
-                // Add sources here
-                element.innerHTML = "Your browser does not support the video tag.";
+
+                for (let j = 1; j < contents [i].length; j ++) {
+                    let source = document.createElement ("source");
+
+                    source.src = contents [i] [j];
+                    element.appendChild (source);
+                }
+
+                element.innerHTML += "Your browser does not support the video tag.";
         }
 
         section.appendChild (element);
