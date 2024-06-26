@@ -44,10 +44,14 @@ function build_article_cover (article) {
     img.src = article ["cover"] [0];
     img.alt = img.title = article ["cover"] [1];
     figcaption.innerHTML = article ["cover"] [2];
-    a.href = article ["cover"] [3];
-    a.target = "_blank";
-    a.innerHTML = "Image Source";
-    figcaption.append (document.createElement ("br"), a);
+
+    if (article ["cover"].length > 3) {
+        a.href = article ["cover"] [3];
+        a.target = "_blank";
+        a.innerHTML = "Image Source";
+        figcaption.append (document.createElement ("br"), a);
+    }
+
     figure.appendChild (img);
     figure.appendChild (figcaption);
     return figure;
@@ -95,10 +99,13 @@ function build_section (contents) {
     for (let i = 1; i < contents.length; i ++) {
         let type = contents [i] [0];
         let element = document.createElement (type);
-        
+
         switch (type) {
             case "p":
-                element.innerHTML = contents [i] [1];
+                for (let j = 1; j < contents [i].length; j ++) {
+                    element.innerHTML += contents [i] [j] + " ";
+                }
+
                 break;
             case "ul":
                 for (let j = 1; j < contents [i].length; j ++) {
@@ -109,6 +116,16 @@ function build_section (contents) {
                 }
 
                 break;
+            case "embed":
+                element.src = contents [i] [1];
+                element.type = contents [i] [2];
+                // element.innerHTML = "<embed src = \"" + contents [i] [1] + "\" type = \"" + contents [i] [2] + "\">";
+                break;
+            case "video":
+                element.controls = true;
+                // element.src = contents [i] [1];
+                // Add sources here
+                element.innerHTML = "Your browser does not support the video tag.";
         }
 
         section.appendChild (element);
@@ -130,7 +147,7 @@ async function build_article () {
 
     container.append (build_h1 (article), document.createElement ("hr"));
 
-    if ("cover" in article) {
+    if (USE_COVER) {
         container.appendChild (build_article_cover (article));
     }
 

@@ -1,8 +1,23 @@
 {
     "history": [
-        "/data/history/horthy.json",
-        "/data/history/navy.json"
+        "/data/history/malaya_malaysia.json",
+        "/data/history/apostle_democracy.json",
+        "/data/history/arab_world.json"
     ],
-    "projects": [
+    "blog": [
+        "/data/blog/week_1.json",
+        "/data/blog/week_2.json",
+        "/data/blog/week_3.json",
+        "/data/blog/presentation.json"
+    ],
+    "week_1": [
+        "/data/blog/week_1/day_1.json",
+        "/data/blog/week_1/day_2.json"
+    ],
+    "week_2": [
+    ],
+    "week_3": [
+    ],
+    "presentation": [
     ]
 }

@@ -25,10 +25,18 @@ function build_articles_panel (article) {
      */
     articles_panel.classList.add ("articles_panel");
     articles_panel.href = article ["link"];
-    img.src = article ["cover"] [0];
-    img.alt = img.title = article ["cover"] [1];
+
+    if ("cover" in article) {
+        img.src = article ["cover"] [0];
+        img.alt = img.title = article ["cover"] [1];
+    }
+
     figcaption.innerHTML = article ["title"];
-    figure.appendChild (img);
+
+    if ("cover" in article) {
+        figure.appendChild (img);
+    }
+
     figure.appendChild (figcaption);
     articles_panel.appendChild (figure);
     return articles_panel;

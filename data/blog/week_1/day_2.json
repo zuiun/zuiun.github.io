@@ -1,0 +1,26 @@
+{
+    "link": "/blog/week_1/day_2.html",
+    "title": "Day 2 - Magdi Rúzsa",
+    "summary": "This is my blog post for 26 June 2024.",
+    "cover": [
+        "",
+        "",
+        ""
+    ],
+    "sections": [
+        [
+            ["ceu", "Central European University"],
+            [
+                "p",
+                "post"
+            ]
+        ],
+        [
+            ["rusza", "About Magdi Rúzsa"],
+            [
+                "p",
+                "post"
+            ]
+        ]
+    ]
+}
