@@ -2,11 +2,6 @@
     "link": "/blog/week_1/day_2.html",
     "title": "Day 2 - Magdi Rúzsa",
     "summary": "This is my blog post for 26 June 2024.",
-    "cover": [
-        "",
-        "",
-        ""
-    ],
     "sections": [
         [
             ["ceu", "Central European University"],
@@ -19,7 +14,7 @@
             ],
             [
                 "video",
-                "/images/blog/week_1/lunch.mp4"
+                "/images/blog/week_1/magdi_ruzsa.mp4"
             ],
             [
                 "p",
@@ -27,7 +22,7 @@
             ]
         ],
         [
-            ["rusza", "About Magdi Rúzsa"],
+            ["magdi_ruzsa", "About Magdi Rúzsa"],
             [
                 "p",
                 "Magdolna \"Magdi\" Rúzsa is a Hungarian singer from the Vojvodina region of Yugoslavia, now Serbia.",
@@ -38,7 +33,8 @@
             ],
             [
                 "p",
-                "Anyway, being born in Yugoslavia clearly made her no less Hungarian to whoever chose her to represent Hungary, though I could see how some people might find this problematic.",
+                "The songs I heard were simple love songs, so I'll focus on her Eurovision appearance.",
+                "Being born in Yugoslavia clearly made her no less Hungarian to whoever chose her to represent Hungary, though I could see how some people might find this problematic.",
                 "Eurovision is a high-profile event, so choosing Rúzsa is a strong sign of acceptance. A Hungarian is Hungarian, no matter from where, it seems.",
                 "I suppose I was expecting something a little more cosmopolitan given that we were in CEU,",
                 "but it makes sense that the cashier-barista's comfort music is from one of Hungary's best known singers and not some random American band."

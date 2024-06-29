@@ -12,7 +12,10 @@
     ],
     "week_1": [
         "/data/blog/week_1/day_1.json",
-        "/data/blog/week_1/day_2.json"
+        "/data/blog/week_1/day_2.json",
+        "/data/blog/week_1/day_3.json",
+        "/data/blog/week_1/day_4.json",
+        "/data/blog/week_1/day_5.json"
     ],
     "week_2": [
     ],

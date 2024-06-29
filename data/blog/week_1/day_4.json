@@ -1,0 +1,19 @@
+{
+    "link": "/blog/week_1/day_4.html",
+    "title": "Day 4 - Jazz in the Park",
+    "summary": "This is my blog post for 28 June 2024.",
+    "cover": [
+        "/images/blog/week_1/jazz_park.jpg",
+        "Jazz in the Park billboard",
+        "The billboard I saw on the way to Babeș-Bolyai University."
+    ],
+    "sections": [
+        [
+            ["ubb", "Babeș-Bolyai University"],
+            [
+                "p",
+                "ok"
+            ]
+        ]
+    ]
+}

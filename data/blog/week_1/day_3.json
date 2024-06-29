@@ -1,0 +1,39 @@
+{
+    "link": "/blog/week_1/day_3.html",
+    "title": "Day 3 - Electric Castle",
+    "summary": "This is my blog post for 27 June 2024.",
+    "cover": [
+        "/images/blog/week_1/electric_castle.jpg",
+        "Electric Castle banner",
+        "The banner I saw on the way to Bánffy Castle."
+    ],
+    "sections": [
+        [
+            ["banffy", "Bánffy Castle"],
+            [
+                "p",
+                "Once again, I didn't take a selfie, but we all went there together. That counts as proof, right?",
+                "Anyway, Bánffy Castle is a historic Hungarian castle in Cluj that is still owned by the Bánffy family, which, frankly, is surprising.",
+                "One would imagine that, through several periods of Romanian rule, the castle would've been seized by the state, and it might be a reconciliation gesture that the Bánffy family continues to own the castle.",
+                "In any case, like VeszprémFest, Electric Castle has a <a href = \"https://electriccastle.ro/\" target = \"_blank\">website</a> with quite a bit to see."
+            ]
+        ],
+        [
+            ["electric_castle", "About Electric Castle"],
+            [
+                "p",
+                "Firstly, unlike VeszprémFest, the website is (first) in English. That may be a result of my computer language, but I'm not sure.",
+                "Either way, the list of performers on the banner suggests significant foreign attendance, such as Bring Me the Horizon.",
+                "One thing I find interesting is that Subcarpați, a Romanian band, almost shares a name with Kárpátia, a Hungarian band.",
+                "I can't say I'm a fan of Subcarpați's music, but they aren't right-wing apologists like Kárpátia, which is, admittedly, the bare minimum.",
+                "Anyway, the lack of a Hungarian translation for the website suggests Romanian cultural dominance even over an event taking place in a Hungarian castle, but I might be reading too much into it.",
+                "There's a very large variety of international artists taking place here, which is great to see in the multicultural city of Cluj."
+            ],
+            [
+                "p",
+                "I do find it a little odd that I couldn't find any Hungarian performers, though I don't want to be cynical and suggest active discrimination by the event organisers.",
+                "Still, it's a bit strange."
+            ]
+        ]
+    ]
+}
