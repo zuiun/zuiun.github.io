@@ -1,18 +1,43 @@
 {
     "link": "/blog/week_1/day_5.html",
     "title": "Day 5",
-    "summary": "This is my blog post for 29 June 2024.",
+    "summary": "This is my blog post for 30 June 2024.",
     "cover": [
-        "",
-        "",
-        ""
+        "/images/blog/week_1/karpatia.jpg",
+        "Kárpátia poster",
+        "The poster I saw in Pécs."
     ],
     "sections": [
         [
-            ["ok", "ok"],
+            ["pecs", "Pécs"],
             [
                 "p",
-                "ok"
+                "Today, I went to Pécs, and I have quite a few discoveries to share.",
+                "I will be rationing them, though, so that I can have more blog posts :)",
+                "Anyway, enjoy my very first selfie - I've finally started following directions!",
+                "I saw this poster on the way to the train station in Pécs as I was leaving.",
+                "It caught my eye because I recognise one of the bands - Kárpátia.",
+                "What a coincidence that I talked about it just a few days ago, comparing it to Subcarpați."
+            ]
+        ],
+        [
+            ["karpatia", "About Kárpátia"],
+            [
+                "p",
+                "Kárpátia is a band with which I have some history.",
+                "Since one of my main areas of study is Miklós Horthy's regency, one thing I discovered in my research was the song \"Horthy Miklós katonája vagyok,\" which Kárpátia has remixed (very well, by the way).",
+                "That alone should be a red flag, but Kárpátia has also remixed the \"Székely himnusz,\" which is unsurprisingly associated with Hungarian nationalism.",
+                "Other problematic songs include \"Mindent vissza!\" \"Csatadal,\" and \"Ó bujdosó székely.\"",
+                "Kárpátia is obviously extremely nationalist, and I believe that its symbol is the <code>turul</code>, which is rather suspect."
+            ],
+            [
+                "p",
+                "I know nothing about the other bands to be featured at this event, but featuring Kárpátia is extremely distasteful, especially since Pécs is known as a diverse city of culture.",
+                "I can only assume that the other bands are also suspect - if I know about Kárpátia, then surely actual Hungarians do.",
+                "Choosing to perform at a festival where a very nationalist rock band is playing is essentially the same as endorsing it.",
+                "It's extremely unfortunate that exclusionary music apparently has a place in Pécs, which also happens to be very close to the Croatian border.",
+                "In the previous century, that might've been a provocation. A border conflict, even. Grounds for punitive measures, maybe.",
+                "In any case, Kárpátia's presence in Pécs is extremely disappointing and shows that Hungary is still very wary of outsiders and fixated on its past."
             ]
         ]
     ]
