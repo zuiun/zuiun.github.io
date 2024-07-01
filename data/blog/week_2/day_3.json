@@ -1,0 +1,19 @@
+{
+    "link": "/blog/week_2/day_3.html",
+    "title": "Day 3 - ",
+    "summary": "This is my blog post for 3 July 2024.",
+    "cover": [
+        "/images/blog/week_2",
+        "",
+        ""
+    ],
+    "sections": [
+        [
+            ["ok", "ok"],
+            [
+                "p",
+                "ok"
+            ]
+        ]
+    ]
+}

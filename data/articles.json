@@ -18,8 +18,18 @@
         "/data/blog/week_1/day_5.json"
     ],
     "week_2": [
+        "/data/blog/week_2/day_1.json",
+        "/data/blog/week_2/day_2.json",
+        "/data/blog/week_2/day_3.json",
+        "/data/blog/week_2/day_4.json",
+        "/data/blog/week_2/day_5.json"
     ],
     "week_3": [
+        "/data/blog/week_3/day_1.json",
+        "/data/blog/week_3/day_2.json",
+        "/data/blog/week_3/day_3.json",
+        "/data/blog/week_3/day_4.json",
+        "/data/blog/week_3/day_5.json"
     ],
     "presentation": [
     ]

@@ -1,0 +1,37 @@
+{
+    "link": "/blog/week_2/day_1.html",
+    "title": "Day 1 - Aurevoir",
+    "summary": "This is my blog post for 1 July 2024.",
+    "cover": [
+        "/images/blog/week_2/aurevoir.jpg",
+        "Aurevoir poster",
+        "The poster I saw in Zsolnay Cultural Quarter."
+    ],
+    "sections": [
+        [
+            ["zsolnay_cultural_quarter", "Zsolnay Cultural Quarter"],
+            [
+                "p",
+                "As promised, I've brought out my stash of pictures from Pécs! And yes, I took a selfie this time.",
+                "This poster is from the Zsolnay Cultural Quarter, which in itself probably deserves a blog post.",
+                "Zsolnay Quarter is what remains of the Zsolnay factory in Pécs, which produced ceramics.",
+                "These ceramics were used everywhere, including as tiling for the Parliament building in Budapest - Zsolnay was a significant force in Hungarian architecture.",
+                "Today, however, the factory is defunct and the premises are used as a museum and gathering place, such as for concerts.",
+                "In particular, the one I'm interested in is Aurevoir's. More information about it can be found on Zsolnay's <a href = \"https://www.zsolnaynegyed.hu/\" target = \"_blank\">website</a>."
+            ]
+        ],
+        [
+            ["aurevoir", "About Aurevoir"],
+            [
+                "p",
+                "Aurevoir stands out as not seeming particularly Hungarian. It is, however, a Hungarian band, despite its French name.",
+                "The band terms itself an \"ethno-beat\" band, which is not a real genre, but apparently means a mixture of Carpathian and Anglo-Saxon folk music.",
+                "Carpathian suggests a mix of Hungarian, Slavic, and Romani styles, while Anglo-Saxon suggests a mix of English and German styles, which is understandable given Anglophone dominance in world music and Teutophone dominance in Hungary.",
+                "In other words, Aurevoir's music is quite diverse. I'm aware of musicians in the past, such as Ferenc Liszt, who confused Romani folk music with Hungarian folk music, so these styles definitely seem compatible.",
+                "This seemingly French band thus performs music recognisable across a large region, without overtly appearing Hungarian.",
+                "In conjunction with the fact that it will be performing at a historic arts site, this definitely seems like a tasteful mixing of cultures.",
+                "I wonder if the band's naming and unique \"genre\" were intended to refute suggestions that Aurevoir was \"assimilating\" other cultures' music and passing it off as a Hungarian-dominated Carpathian style?"
+            ]
+        ]
+    ]
+}
