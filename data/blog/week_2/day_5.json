@@ -4,12 +4,12 @@
     "summary": "This is my second blog post for 4 July 2024.",
     "cover": [
         "/images/blog/week_2/park_romani_musicians.jpg",
-        "",
-        ""
+        "The park I saw from bus line 9.",
+        "Park of Romani Musicians"
     ],
     "sections": [
         [
-            ["9_bus_line", "9 Bus Line"],
+            ["bus_line_9", "Bus Line 9"],
             [
                 "p",
                 "Today, we went on a tour of Chinatown, which began in District VIII.",
