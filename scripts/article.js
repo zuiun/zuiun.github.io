@@ -30,7 +30,6 @@ function build_article_cover (article) {
     let figure = document.createElement ("figure");
     let img = document.createElement ("img");
     let figcaption = document.createElement ("figcaption");
-    let a = document.createElement ("a");
 
     /*
      * "<figure>",
@@ -46,6 +45,8 @@ function build_article_cover (article) {
     figcaption.innerHTML = article ["cover"] [2];
 
     if (article ["cover"].length > 3) {
+        let a = document.createElement ("a");
+
         a.href = article ["cover"] [3];
         a.target = "_blank";
         a.innerHTML = "Image Source";
@@ -72,6 +73,23 @@ function build_summary (article) {
     // <p>SUMMARY</p>
     p.innerHTML = article ["summary"];
     return p;
+}
+
+/*
+ * Puts media in a container
+ *
+ * element: HTMLAnchorElement = HTML of media
+ *
+ * Pre: None
+ * Post: None
+ * Return: HTMLAnchorElement = Container
+ */
+function contain_media (element) {
+    let container = document.createElement ("div");
+
+    container.className = "media_container";
+    container.appendChild (element);
+    return container;
 }
 
 /*
@@ -143,6 +161,13 @@ function build_section (contents) {
                 }
 
                 element.innerHTML += "Your browser does not support the video tag.";
+                element = contain_media (element);
+                break;
+            case "img":
+                element.src = contents [i] [1];
+                element.alt = contents [i] [2];
+                element = contain_media (element);
+                break;
         }
 
         section.appendChild (element);
