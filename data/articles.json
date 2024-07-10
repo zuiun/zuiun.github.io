@@ -1,9 +1,4 @@
 {
-    "history": [
-        "/data/history/malaya_malaysia.json",
-        "/data/history/apostle_democracy.json",
-        "/data/history/arab_world.json"
-    ],
     "blog": [
         "/data/blog/week_1.json",
         "/data/blog/week_2.json",
@@ -32,5 +27,7 @@
         "/data/blog/week_3/day_5.json"
     ],
     "presentation": [
+        "/data/blog/presentation/part_1.json",
+        "/data/blog/presentation/part_2.json"
     ]
 }

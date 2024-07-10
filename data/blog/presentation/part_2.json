@@ -1,0 +1,55 @@
+{
+    "link": "/blog/presentation/part_2.html",
+    "title": "Part 2 - Slovaks",
+    "summary": "This is my second presentation blog post.",
+    "sections": [
+        [
+            ["fading_minority", "Fading Minority"],
+            [
+                "embed",
+                "/resources/blog/presentation/fading_minority.pdf",
+                "application/pdf"
+            ]
+        ],
+        [
+            ["cultural_institutions", "Cultural Institutions"],
+            [
+                "embed",
+                "/resources/blog/presentation/cultural_institutions.pdf",
+                "application/pdf"
+            ]
+        ],
+        [
+            ["csibaj_banda", "About Csibaj Banda"],
+            [
+                "img",
+                "/resources/blog/presentation/csibaj_banda.jpg",
+                "Csibaj Banda"
+            ],
+            [
+                "embed",
+                "/resources/blog/presentation/csibaj_banda.pdf",
+                "application/pdf"
+            ],
+            [
+                "iframe",
+                ["width", 560],
+                ["height", 315],
+                ["src", "https://www.youtube-nocookie.com/embed/Q2L-RnVsluY?si=FIafQHz1aCbmGbM_&amp;start=540"],
+                ["title", "YouTube video player"],
+                ["frameborder", 0],
+                ["allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"],
+                ["referrerpolicy", "strict-origin-when-cross-origin"],
+                ["allowfullscreen", ""]
+            ]
+        ],
+        [
+            ["sources", "Sources"],
+            [
+                "ul",
+                "http://sjps.fsvucm.sk/Articles/11_3_3.pdf",
+                "https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203"
+            ]
+        ]
+    ]
+}

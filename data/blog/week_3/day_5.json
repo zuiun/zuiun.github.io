@@ -1,9 +1,9 @@
 {
     "link": "/blog/week_3/day_5.html",
     "title": "Day 5 - La vaguelette",
-    "summary": "This is my first blog post for 9 July 2024.",
+    "summary": "This is my blog post for 9 July 2024.",
     "cover": [
-        "/images/blog/week_3/pecs_station.jpg",
+        "/resources/blog/week_3/pecs_station.jpg",
         "Pécs Station piano",
         "The piano I saw at Pécs Station."
     ],
@@ -25,19 +25,18 @@
             ["la_vaguelette", "About La vaguelette"],
             [
                 "video",
-                "/images/blog/week_3/la_vaguelette.mp4"
+                "/resources/blog/week_3/la_vaguelette.mp4"
             ],
             [
                 "p",
                 "\"La vaguelette\" is my favourite song, full stop. I've spent actual months trying to learn it, and I'm still not great at it.",
-                "I'm not sure that the song itself is that important, so I'll write everything in a tooltip <code title = \"Long story short, La vaguelette is a song with a double meaning. The singer is a former actress and god taking the stage for the last time playing a woman about to sacrifice herself for a village that hates her. It covers the woman's regrets in life and the idealism with which she sees the world, then she dissolves into water, thus restoring the village's water supply. The song intentionally parallels the life of said actress, so, call me sentimental, but she's my favourite character in all of fiction and this song resonated with me deeply.\">here</code>.",
-                "This is a song from a Chinese game (yes, it's Genshin Impact...) sung in French (performed by Cécilia Cara, who's apparently quite famous in France).",
+                "The song itself isn't important as the act of playing it, so I'll write the story behind it in a tooltip <code title = \"Long story short, La vaguelette is a song with a double meaning. The singer is a former actress and god taking the stage for the last time playing a woman about to sacrifice herself for a village that hates her. It covers the woman's regrets in life and the idealism with which she sees the world, then she dissolves into water, thus restoring the village's water supply. The song intentionally parallels the life of said actress, so, call me sentimental, but she's my favourite character in all of fiction and this song resonated with me deeply.\">here</code>.",
+                "Anyway, La vaguelette was written by a Chinese studio (yes, it's from Genshin Impact...), sung in French (performed by Cécilia Cara, who's apparently quite famous in France), and now performed in Hungary.",
+                "The only way you could make this more culturally mixed is if someone started doing a French Algerian dance or something.",
                 "Of course, I played some other pieces too, including the only one I know by Ernő Dohnányi.",
                 "There's stories all over the world of a musician, armed with nothing but an instrument and passion, journeying abroad to spread music.",
                 "I never thought that I'd be one of those people (for about fifteen minutes).",
                 "Even if nobody but that kid cared about my music, I still contributed somewhat to a worldwide cultural heritage.",
-                "I played very badly. There were a lot of mistakes and I forgot some parts, so I don't even want to double-check how my playing sounds.",
-                "But even so, perhaps one person in that station was thinking, \"Wow, that sounds interesting. Maybe I'd like it if it was played better.\"",
                 "I mean, how else were these average Hungarians going to be exposed to Pat Metheny's \"Letter from Home\" (although I know jazz is pretty popular in Hungary)? They probably don't have that oppportunity in daily life.",
                 "I didn't do very much, but others do, and musicians have a way of getting into people's heads; in return, they might adopt local influences into their music and forge connections.",
                 "They bring a piece of Hungary with them wherever they go, and so I think it's fair to say that musicians help Hungary connect with the world."

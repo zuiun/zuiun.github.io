@@ -165,7 +165,14 @@ function build_section (contents) {
                 break;
             case "img":
                 element.src = contents [i] [1];
-                element.alt = contents [i] [2];
+                element.alt = element.title = contents [i] [2];
+                element = contain_media (element);
+                break;
+            case "iframe":
+                for (let j = 1; j < contents [i].length; j ++) {
+                    element.setAttribute (contents [i] [j] [0], contents [i] [j] [1]);
+                }
+
                 element = contain_media (element);
                 break;
         }
