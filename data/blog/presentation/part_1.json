@@ -47,9 +47,9 @@
             ["sources", "Sources"],
             [
                 "ul",
-                "https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501",
-                "https://www.atlasobscura.com/places/busojaras",
-                "https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik"
+                "<a href = \"https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501\" target = \"_blank\">https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501</a>",
+                "<a href = \"https://www.atlasobscura.com/places/busojaras\" target = \"_blank\">https://www.atlasobscura.com/places/busojaras</a>",
+                "<a href = \"https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik\" target = \"_blank\">https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik</a>"
             ]
         ]
     ]

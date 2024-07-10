@@ -47,8 +47,9 @@
             ["sources", "Sources"],
             [
                 "ul",
-                "http://sjps.fsvucm.sk/Articles/11_3_3.pdf",
-                "https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203"
+                "<a href = \"http://sjps.fsvucm.sk/Articles/11_3_3.pdf\" target = \"_blank\">http://sjps.fsvucm.sk/Articles/11_3_3.pdf</a>",
+                "<a href = \"https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203\" target = \"_blank\">https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203</a>",
+                "<a href = \"https://www.uszz.sk/pamatny-den-slovakov-zijucich-v-zahranici-2022/\" target = \"_blank\">https://www.uszz.sk/pamatny-den-slovakov-zijucich-v-zahranici-2022/</a>"
             ]
         ]
     ]
