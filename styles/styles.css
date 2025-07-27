@@ -160,6 +160,10 @@ video, img {
     max-height: 75vh;
 }
 
+iframe {
+    border: none;
+}
+
 .menu {
     width: 100%;
     display: flex;
