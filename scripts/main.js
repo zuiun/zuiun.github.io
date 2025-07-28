@@ -1,45 +1,30 @@
-import {import_json} from "/modules/utilities.mjs"
-
 /*
- * Builds dropdown item
+ * Imports a file
  *
- * article: JSON = JSON of article
- *
+ * path: string = path to file
+ * 
  * Pre: None
  * Post: None
- * Return: HTMLAnchorElement = Dropdown item
+ * Return: response = response of file
  */
-function build_dropdown_item (article) {
-    let dropdown_item = document.createElement ("a");
-
-    // "<a href = \"LINK\" class = \"dropdown_item menu_link\">TITLE</a>"
-    dropdown_item.classList.add ("dropdown_item", "menu_link");
-    dropdown_item.href = article ["link"];
-    dropdown_item.innerHTML = article ["title"];
-    return dropdown_item;
+async function import_file (path) {
+    return await fetch (path)
+        .catch ((error) => console.log ("File Import Error: " + error));
 }
 
 /*
- * Builds header with dropdown links
+ * Imports a file as a JSON
  *
+ * path: string = path to file
+ * 
  * Pre: None
  * Post: None
- * Return: None
+ * Return: JSON = JSON of file
  */
-async function build_header () {
-    let articles = await import_json ("/data/articles.json");
-    let dropdowns = document.getElementsByClassName ("dropdown_content");
-
-    // Populate dropdowns with appropriate tabs
-    for (let i = 0; i < dropdowns.length; i ++) {
-        let type = dropdowns [i].textContent;
-
-        dropdowns [i].innerHTML = "";
-
-        for (let j of Object.values (articles [type])) {
-            dropdowns [i].appendChild (build_dropdown_item (await import_json (j)));
-        }
-    }
+async function import_json (path) {
+    return await import_file (path)
+        .then ((response) => response.json ())
+        .catch ((error) => console.log ("JSON Import Error: " + error));
 }
 
 /*
@@ -54,7 +39,6 @@ async function build_skeleton () {
     let body = document.getElementsByTagName ("body") [0];
 
     body.innerHTML = template ["header"].join ("") + body.innerHTML + template ["footer"].join ("");
-    build_header ();
 
     // Add scroll button if necessary
     if (window.innerWidth > document.documentElement.clientWidth || window.innerHeight < document.body.clientHeight) {

@@ -1,33 +1,30 @@
 {
     "blog": [
-        "/data/blog/week_1.json",
-        "/data/blog/week_2.json",
-        "/data/blog/week_3.json",
-        "/data/blog/presentation.json"
+        [
+            "/blog/week_1/index.html",
+            "Week 1"
+        ],
+        [
+            "/blog/week_2/index.html",
+            "Week 2"
+        ],
+        [
+            "/blog/week_3/index.html",
+            "Week 3"
+        ],
+        [
+            "/blog/presentation/index.html",
+            "Presentation"
+        ]
     ],
-    "week_1": [
-        "/data/blog/week_1/day_1.json",
-        "/data/blog/week_1/day_2.json",
-        "/data/blog/week_1/day_3.json",
-        "/data/blog/week_1/day_4.json",
-        "/data/blog/week_1/day_5.json"
-    ],
-    "week_2": [
-        "/data/blog/week_2/day_1.json",
-        "/data/blog/week_2/day_2.json",
-        "/data/blog/week_2/day_3.json",
-        "/data/blog/week_2/day_4.json",
-        "/data/blog/week_2/day_5.json"
-    ],
-    "week_3": [
-        "/data/blog/week_3/day_1.json",
-        "/data/blog/week_3/day_2.json",
-        "/data/blog/week_3/day_3.json",
-        "/data/blog/week_3/day_4.json",
-        "/data/blog/week_3/day_5.json"
-    ],
-    "presentation": [
-        "/data/blog/presentation/part_1.json",
-        "/data/blog/presentation/part_2.json"
+    "projects": [
+        [
+            "https://github.com/zuiun",
+            "GitHub"
+        ],
+        [
+            "/projects/fortress_kanto.html",
+            "Fortress Kanto: The Kingmaker of Japan"
+        ]
     ]
 }
