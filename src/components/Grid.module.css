@@ -1,0 +1,39 @@
+.panel {
+    width: 30%;
+    max-height: 30vh;
+    text-decoration: none;
+    margin-bottom: 1.25em;
+}
+
+.panel figure {
+    height: 100%;
+    border: 1px solid white;
+    justify-content: center;
+}
+
+.panel:hover figure {
+    background-color: #3C405C;
+    border-color: #9bf1ff;
+}
+
+.panel:active figure {
+    border-color: #53e3fb;
+}
+
+.panel figure img {
+    object-fit: fill;
+    /* TODO: test this */
+    margin-top: 0.5em;
+}
+
+.panel figure figcaption {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+#grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+}

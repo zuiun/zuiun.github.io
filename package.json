@@ -1,0 +1,29 @@
+{
+  "name": "zuiun.github.io",
+  "version": "1.0.0",
+  "homepage": "https://zuiun.github.io",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "start": "next start",
+    "build": "next build --turbopack",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "next": "15.5.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.0",
+    "typescript": "^5"
+  }
+}

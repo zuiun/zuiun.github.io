@@ -1,0 +1,31 @@
+.padding {
+    height: 110vh;
+    flex-shrink: 0;
+}
+
+.panel {
+    height: 100%;
+}
+
+#button {
+    display: flex;
+    position: sticky;
+    bottom: 12.5vh; /* 10vh = footer height, 2em = article margin */
+    width: 2.5vh;
+    height: 2.5vh;
+    border: 1px solid white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#button:hover {
+    background-color: #3C405C;
+    color: #9bf1ff;
+    border-color: #9bf1ff;
+}
+
+#button:active {
+    color: #53e3fb;
+    border-color: #53e3fb;
+}

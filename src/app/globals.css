@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #242943;
+    color: white;
+    font-family: "Ubuntu", "Verdana", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+header, footer {
+    background-color: #3C405C;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    transition: opacity 0.25s;
+}
+
+header:hover {
+    opacity: 1 !important;
+}
+
+footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9bf1ff;
+}
+
+a:active {
+    text-decoration: none;
+    color: #53e3fb;
+}
+
+main {
+    flex: 1 0 0;
+    display: flex;
+    width: 100%;
+}
+
+article {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    margin: 1em 0em 2em 0em;
+}
+
+aside {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+}
+
+hr {
+    color: white;
+    width: 100%;
+}
+
+main h2 {
+    font-size: 1.5em;
+}
+
+ul, ol, dl {
+    padding-left: 2.5em;
+}
+
+p, li, dt {
+    margin: 1em 0em 1em 0em;
+}
+
+dl dl {
+    padding-left: 0em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+section, li, dt, dd, p {
+    scroll-margin-top: 10vh;
+}
+
+li {
+    width: fit-content;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+sub li {
+    line-height: 1.25em;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+abbr, dfn {
+    font-style: italic;
+}
+
+abbr {
+    text-decoration: underline dotted white;
+}
+
+code {
+    border: 1px dotted white;
+}
+
+figure {
+    width: 100%;
+    max-height: 80vh;
+    margin: 1.5em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    margin-bottom: 0.6em;
+}
+
+figcaption {
+    text-align: center;
+}
+
+video, img {
+    max-width: 100%;
+    max-height: 75vh;
+}
+
+/* .footnotes {
+    font-size: 0.75em;
+    line-height: 1.25em;
+}
+
+.footnotes li {
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+#footnote-1:target, #footnote-2:target, #footnote-3:target, #footnote-4:target, #footnote-5:target, #footnote-6:target {
+    background-color: #3C405C;
+    border: 1px dotted white;
+} */
