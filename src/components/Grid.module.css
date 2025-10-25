@@ -22,7 +22,6 @@
 
 .panel figure img {
     object-fit: fill;
-    /* TODO: test this */
     margin-top: 0.5em;
 }
 

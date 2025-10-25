@@ -33,11 +33,7 @@ export default function Grid ({ panels }: Readonly<{ panels: Panel[] }>) {
   return (
     <section id = { styles.grid }>
       {
-        panels.map ((panel, i) => {
-          return (
-            <Panel key = { i } href = { panel.href } title = { panel.title } has_image = { panel.has_image } src = { panel.src } alt = { panel.alt } width = { panel.width } height = { panel.height }/>
-          );
-        })
+        panels.map ((panel, i) => <Panel key = { i } href = { panel.href } title = { panel.title } has_image = { panel.has_image } src = { panel.src } alt = { panel.alt } width = { panel.width } height = { panel.height }/>)
       }
       { ... paddings }
     </section>
