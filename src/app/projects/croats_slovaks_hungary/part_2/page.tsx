@@ -28,13 +28,13 @@ export default function Part2 () {
       <Section id = "sources" title = "Sources">
         <ul>
           <li>
-            <Anchor href = "http://sjps.fsvucm.sk/Articles/11_3_3.pdf" className = "">http://sjps.fsvucm.sk/Articles/11_3_3.pdf</Anchor>
+            <Anchor href = "http://sjps.fsvucm.sk/Articles/11_3_3.pdf">http://sjps.fsvucm.sk/Articles/11_3_3.pdf</Anchor>
           </li>
           <li>
-            <Anchor href = "https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203" className = "">https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203</Anchor>
+            <Anchor href = "https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203">https://szlovakok.hu/en/SLOVAK+PARTNERS+IN+REGION-m203</Anchor>
           </li>
           <li>
-            <Anchor href = "https://www.uszz.sk/pamatny-den-slovakov-zijucich-v-zahranici-2022/" className = "">https://www.uszz.sk/pamatny-den-slovakov-zijucich-v-zahranici-2022/</Anchor>
+            <Anchor href = "https://www.uszz.sk/pamatny-den-slovakov-zijucich-v-zahranici-2022/">https://www.uszz.sk/pamatny-den-slovakov-zijucich-v-zahranici-2022/</Anchor>
           </li>
         </ul>
       </Section>

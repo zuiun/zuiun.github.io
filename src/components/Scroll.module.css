@@ -1,16 +1,13 @@
-.padding {
-    height: 110vh;
-    flex-shrink: 0;
-}
-
 .panel {
+    position: relative;
     height: 100%;
+    padding-bottom: 2.5vh;
 }
 
 #button {
     display: flex;
     position: sticky;
-    bottom: 12.5vh; /* 10vh = footer height, 2em = article margin */
+    top: 95vh;
     width: 2.5vh;
     height: 2.5vh;
     border: 1px solid white;

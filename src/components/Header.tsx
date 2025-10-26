@@ -36,6 +36,7 @@ export default function Header ({ opacity }: Readonly<{ opacity: number }>) {
         <TabLink href = "/" title = "Home" is_dropdown = { false }/>
         <TabDropdown href = "/projects" title = "Projects">
           <TabLink href = "https://github.com/zuiun" title = "GitHub" is_dropdown = { true }/>
+          <TabLink href = "/projects/congress_cucuta" title = "Congress of Cúcuta" is_dropdown = { true }/>
           <TabLink href = "/projects/croats_slovaks_hungary" title = "Croats and Slovaks in Hungary" is_dropdown = { true }/>
           <TabLink href = "/projects/fortress_kanto" title = "Fortress Kanto: The Kingmaker of Japan" is_dropdown = { true }/>
         </TabDropdown>

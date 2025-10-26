@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Anchor ({ children, href, className }: Readonly<{ children: React.ReactNode, href: string, className: string }>) {
+export default function Anchor ({ children, href, className }: Readonly<{ children: React.ReactNode, href: string, className?: string }>) {
   const isInternal = href.startsWith ('/');
 
   if (isInternal) {

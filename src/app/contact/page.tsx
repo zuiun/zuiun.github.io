@@ -10,9 +10,9 @@ export default function Contact () {
   return (
     <Page title = "Contact">
       <p>
-        Email: <Anchor href = "mailto:e16a.zuiun@gmail.com" className = "">e16a.zuiun@gmail.com</Anchor>
+        Email: <Anchor href = "mailto:e16a.zuiun@gmail.com">e16a.zuiun@gmail.com</Anchor>
         <br/>
-        GitHub: <Anchor href = "https://github.com/zuiun" className = "">https://github.com/zuiun</Anchor>
+        GitHub: <Anchor href = "https://github.com/zuiun">https://github.com/zuiun</Anchor>
       </p>
     </Page>
   );

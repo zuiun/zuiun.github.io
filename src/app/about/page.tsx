@@ -29,7 +29,7 @@ export default function About () {
       <Section id = "website" title = "Website">
         <p>
           This website uses React and Next.js.
-          Its design was inspired by <Anchor href = "https://big-stupid-jellyfish.github.io/GFMath/index" className = "">GFMath</Anchor>.
+          Its design was inspired by <Anchor href = "https://big-stupid-jellyfish.github.io/GFMath/index">GFMath</Anchor>.
           <br/>
           An earlier iteration of this website used JavaScript and several JSON files to dynamically populate most pages.
           I was dead-set on not using React or any other framework, but eventually relented amidst the inexorable tide of technological advancement (or something).

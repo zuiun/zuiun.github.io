@@ -28,13 +28,13 @@ export default function Part1 () {
       <Section id = "sources" title = "Sources">
         <ul>
           <li>
-            <Anchor href = "https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501" className = "">https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501</Anchor>
+            <Anchor href = "https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501">https://hrvatiizvanrh.gov.hr/hrvati-izvan-rh-2463/croatian-national-minority/croatianminority-in-hungary/2501</Anchor>
           </li>
           <li>
-            <Anchor href = "https://www.atlasobscura.com/places/busojaras" className = "">https://www.atlasobscura.com/places/busojaras</Anchor>
+            <Anchor href = "https://www.atlasobscura.com/places/busojaras">https://www.atlasobscura.com/places/busojaras</Anchor>
           </li>
           <li>
-            <Anchor href = "https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik" className = "">https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik</Anchor>
+            <Anchor href = "https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik">https://ugytudjuk.hu/cikk/2021-10-13_postaskent-keresi-a-kenyeret-a-no-thanx-egykori-enekese-skrapits-erik</Anchor>
           </li>
         </ul>
       </Section>
