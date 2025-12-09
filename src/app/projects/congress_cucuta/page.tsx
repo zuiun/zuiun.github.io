@@ -13,7 +13,7 @@ export default function CongressCucuta () {
       <p>
         This is a recreation of the government simulation game I made for my high school club.
         Except, instead of being a PowerPoint, it&apos;s now a Windows executable that can manage gamestate.
-        Pretty neat, huh?
+        Pretty neat.
         <br/>
         You can find it <Anchor href = "https://github.com/zuiun/CongressCucuta">here</Anchor>.
       </p>
@@ -39,8 +39,9 @@ export default function CongressCucuta () {
         </ul>
         <p>
           If I had to recommend one simulation to try, I would probably pick Canada.
-          While I put in a roughly similar amount of research in for all of them (except Colombia, which was my first simulation), these were all designed to fit within the one-hour timeslot I had after school for club meetings.
-          Canada was made explicitly for a club reunion we had sometime during university, so it&apos;s longer and more detailed than the others.
+          While I put in a roughly similar amount of research in for all of them (except Colombia, which was my first simulation), most simulations were designed to fit within the one-hour timeslot we had after school for club meetings.
+          Canada was explicitly made for a club reunion we had during university, so it&apos;s longer and more detailed than the others.
+          For that matter, everything from Malaysia onwards was made during university, but all of them (again, except Colombia) received a touch-up at some point after their creation.
         </p>
       </Section>
     </Page>

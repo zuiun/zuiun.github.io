@@ -12,7 +12,7 @@ export default function FortressKanto () {
     <Page title = "Fortress Kanto: The Kingmaker of Japan">
       <p>
         This is my capstone project for HIS 378 (Capstone in History).
-        My research question was &ldquo;how the Kanto contribute to the unification of Japan?&rdquo;
+        My research question was &ldquo;how did the Kanto contribute to the unification of Japan?&rdquo;
       </p>
       <Section id = "poster" title = "Poster">
         <Pdf src = "/projects/fortress_kanto/poster.pdf"/>
