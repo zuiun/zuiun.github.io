@@ -19,6 +19,7 @@ export default function Projects () {
       </p>
       <Grid panels = {[
         { href: "https://github.com/zuiun", title: "GitHub", has_image: false, src: "", alt: "", width: 0, height: 0 },
+        { href: "/projects/congress_cucuta", title: "Congress of Cúcuta", has_image: false, src: "", alt: "", width: 0, height: 0 },
         { href: "/projects/croats_slovaks_hungary", title: "Croats and Slovaks in Hungary", has_image: false, src: "", alt: "", width: 0, height: 0 },
         { href: "/projects/fortress_kanto", title: "Fortress Kanto: The Kingmaker of Japan", has_image: false, src: "", alt: "", width: 0, height: 0 },
       ]}/>

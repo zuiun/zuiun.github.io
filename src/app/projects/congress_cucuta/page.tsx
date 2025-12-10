@@ -19,7 +19,7 @@ export default function CongressCucuta () {
       </p>
       <Section id = "simulations" title = "Simulations">
         <p>
-          Congress of Cúcuta is designed to work with portable .sim files, but several simulations are provided with the program.
+          Congress of Cúcuta is designed to work with portable <code>.sim</code> files, but several simulations are provided with the program.
           These include at least one simulation from each government type for which I had written simulations.
           More information can be found on the GitHub page, but they are listed below, in order of creation date:
         </p>
